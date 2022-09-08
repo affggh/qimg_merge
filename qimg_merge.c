@@ -185,6 +185,7 @@ int main(int argc, char *argv[]) {
 				fclose(fp2);
 				xmlFree(start_sector);
 				xprocess++;
+				free(buffer);
 			}
 			xmlFree(lb);
 		}
